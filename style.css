@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.wrapper {
+  height: 100vh;
+  background-image: url(./autumn.jpg);
+  background-size: cover;
+  background-color: rgba(0, 0, 0, .2);
+  padding-top: 280px;
+  box-sizing: border-box;
+}
+
+.description, .title {
+ font-family: sans-serif, arial;
+ font-weight: 400;
+ color: #fff;
+ text-align: center;
+ text-shadow: #fff 0 0 20px;
+}
+
+.title {
+  font-size: 80px;
+  margin: 0 0 40px 0;
+}
+
+.description {
+  margin: 0;
+}
+
+.button {
+  margin: auto;
+  display: block;
+  width: 150px;
+  font-family: sans-serif, arial;
+  font-size: 14px;
+  line-height: 28px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+  background: transparent;
+  border: 2px solid;
+  text-align: center;
+  text-shadow: #fff 0 0 15px;
+  transition-duration: .4s;
+}
+
+.button:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #000;
+}
